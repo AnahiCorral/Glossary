@@ -1,0 +1,109 @@
+/* Estilos */
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 1;
+    background-color: #ddedef;
+    color: #0c070a;
+}
+
+header {
+    background-image: url(images.jpg);
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 10vh; 
+    display: flow-root ; 
+    justify-content: center;
+    align-items: center; 
+    opacity: 0.9;
+    padding: 100px;
+
+
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+section.letra {
+    margin-bottom: 30px;
+}
+
+h2 {
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 5px;
+    color: #0073e6;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+}
+
+dl.termino {
+    margin: 10px 0;
+}
+
+dt {
+    font-weight: bold;
+    color: #005bb5;
+}
+
+dd {
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Barra de búsqueda */
+.barra-busqueda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.barra-busqueda input {
+    padding: 10px;
+    width: 250px;
+    border: 2px solid #ccc;
+    border-radius: 25px 0 0 25px;
+    font-size: 16px;
+    outline: none;
+}
+
+.barra-busqueda input{
+    border-color: #0073e6;
+}
+
+.barra-busqueda button{
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.barra-busqueda button{
+    background-color: #005bb5;
+}
+
